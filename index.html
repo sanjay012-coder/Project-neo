@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F3EC">
+  <meta name="description" content="ATELIER COFFEE - an editorial coffee shop experience. Explore thoughtfully crafted coffee, a considered space, and the pleasure of slowing down.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ATELIER COFFEE - A Better Day Begins With Coffee">
+  <meta property="og:description" content="Thoughtfully brewed, beautifully served. Discover coffee made for the moments that matter.">
+  <meta property="og:image" content="https://atelier-coffee-putra-2026-replica.dearjoust32.chatgpt.site/assets/hero.webp">
+  <title>ATELIER COFFEE - A Better Day Begins With Coffee</title>
+  <link rel="icon" href="assets/hero.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css"  >
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-transition" id="page-transition" aria-hidden="true"><span cl0ass="page-transition-mark">a.</span></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Atelier Coffee, home"><span class="brand-mark" aria-hidden="true">a.</span><span class="brand-name">ATELIER <span>COFFEE</span></span></a>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#menu">Our Menu</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <a class="nav-visit" href="#contact">Visit us </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-inner">
+          <span class="eyebrow hero-enter">A little pause, beautifully made <span class="eyebrow-line" aria-hidden="true"></span></span>
+          <h1 class="hero-enter" id="hero-title">A Better Day<br>Begins With<br><em>Coffee.</em></h1>
+          <p class="hero-subtitle hero-enter">Thoughtfully brewed, beautifully served.</p>
+          <div class="hero-actions hero-enter"><a class="button button-dark" href="#menu">Explore Our Menu</a><a class="text-link" href="#about">Our Story </a></div>
+          <p class="hero-note hero-enter">GOOD COFFEE. GOOD COMPANY. EVERY DAY.</p>
+        </div>
+      </div>
+      <div class="hero-visual"><img src="assets/hero.webp" alt="Selection of coffees on a round wooden table" width="1400" height="2100" fetchpriority="high"><div class="hero-visual-note"><span>THE ART OF SLOWING DOWN</span><span class="small-star" aria-hidden="true">◆</span></div></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-inner"><span>MADE WITH INTENTION</span><span class="asterisk">◆</span><span>SERVED WITH WARMTH</span><span class="asterisk">◆</span><span>ENJOY THE MOMENT</span><span class="asterisk">◆</span><span>MADE WITH INTENTION</span><span class="asterisk">◆</span><span>SERVED WITH WARMTH</span></div></div>
+
+    <section class="story section-pad" id="about" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-image reveal"><img src="assets/story.webp" alt="Barista carefully preparing coffee" width="1400" height="2100" loading="lazy" decoding="async"><span class="image-caption">A MORE CONSIDERED CUP</span></div>
+        <div class="story-copy reveal"><span class="eyebrow">THE STORY</span><h2 id="story-title">Coffee is more<br>than a <em>ritual.</em></h2><p class="story-lead">It’s a moment to slow down, settle in, and feel at home.</p><p>At Atelier Coffee, our approach is simple: give every cup the care it deserves. From the first aroma to the last sip, we believe the small details make the moment.</p><a class="text-link" href="#gallery">Explore our world </a><div class="story-signature" aria-hidden="true">Made to be savored.</div></div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="container"><div class="section-heading reveal"><div><span class="eyebrow">THE MENU</span><h2 id="menu-title">Crafted for<br>your <em>moments.</em></h2></div><p>Something familiar, something new. Find the cup that feels like yours.</p></div>
+        <div class="menu-tools"><div class="filters" role="group" aria-label="Filter menu by category"><button class="filter is-selected" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="coffee" aria-pressed="false">Coffee</button><button class="filter" type="button" data-filter="non-coffee" aria-pressed="false">Non-Coffee</button></div><span class="demo-tag">Sample menu · demo prices</span></div>
+        <p class="visually-hidden" id="filter-status" role="status" aria-live="polite"></p>
+        <div class="menu-grid">
+          <article class="menu-card reveal" data-category="coffee"><div class="menu-image"><img src="assets/espresso.webp" alt="Espresso in a small cup" width="1400" height="937" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">COFFEE</span><span class="price">Rp 28.000</span></div><h3>Espresso</h3><p>Short, intense, and beautifully balanced.</p></article>
+          <article class="menu-card reveal" data-category="coffee"><div class="menu-image"><img src="assets/cappuccino.webp" alt="Cappuccino with milk foam" width="1400" height="1867" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">COFFEE</span><span class="price">Rp 38.000</span></div><h3>Cappuccino</h3><p>Rich espresso with a cloud of velvety foam.</p></article>
+          <article class="menu-card reveal" data-category="coffee"><div class="menu-image"><img src="assets/latte.webp" alt="Iced caffè latte in a glass" width="1400" height="935" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">COFFEE</span><span class="price">Rp 40.000</span></div><h3>Caffè Latte</h3><p>Espresso and milk, warm or over ice.</p></article>
+          <article class="menu-card reveal" data-category="coffee"><div class="menu-image"><img src="assets/americano.webp" alt="Black coffee served in a cup" width="1400" height="1050" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">COFFEE</span><span class="price">Rp 32.000</span></div><h3>Americano</h3><p>Deep coffee flavor with a clean finish.</p></article>
+          <article class="menu-card reveal" data-category="coffee"><div class="menu-image"><img src="assets/caramel.webp" alt="Milk coffee with a caramel-colored top" width="1400" height="1400" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">COFFEE</span><span class="price">Rp 45.000</span></div><h3>Caramel Macchiato</h3><p>A soft, sweet twist on an espresso favorite.</p></article>
+          <article class="menu-card reveal" data-category="non-coffee"><div class="menu-image"><img src="assets/matcha.webp" alt="Green matcha latte in a cup" width="1400" height="933" loading="lazy" decoding="async"></div><div class="menu-card-head"><span class="category">NON-COFFEE</span><span class="price">Rp 42.000</span></div><h3>Matcha Latte</h3><p>Earthy matcha, creamy milk, a quiet kind of energy.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" aria-labelledby="feature-title"><div class="feature-image"><img src="assets/feature.webp" alt="Coffee prepared through pour-over brewing" width="1400" height="933" loading="lazy" decoding="async"></div><div class="feature-copy"><div class="feature-content reveal"><span class="eyebrow">A CUP WORTH SLOWING DOWN FOR</span><h2 id="feature-title">Meet the<br><em>signature brew.</em></h2><p>Carefully considered from bean to cup. A full-flavored coffee made for the moments you want to stay in a little longer.</p><span class="feature-fineprint">FEATURED CONCEPT · ASK FOR CURRENT AVAILABILITY</span><a class="button button-light" href="#menu">View Our Menu</a></div><span class="feature-mark" aria-hidden="true">a.</span></div></section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title"><div class="container"><div class="section-heading reveal"><div><span class="eyebrow">INSIDE ATELIER</span><h2 id="gallery-title">A glimpse<br>into <em>our world.</em></h2></div><p>The warmth of a cup. The care behind it. The little things that make a place feel like yours.</p></div><div class="gallery-grid"><figure class="gallery-item gallery-main reveal"><img src="assets/brewing.webp" alt="Espresso brewing into a ceramic cup" width="1400" height="2100" loading="lazy" decoding="async"><figcaption>THE CRAFT </figcaption></figure><figure class="gallery-item gallery-tall reveal"><img src="assets/story.webp" alt="Barista working with coffee equipment" width="1400" height="2100" loading="lazy" decoding="async"><figcaption>THE PEOPLE </figcaption></figure><figure class="gallery-item gallery-small reveal"><img src="assets/interior.webp" alt="Welcoming coffee shop interior" width="1400" height="2100" loading="lazy" decoding="async"><figcaption>THE SPACE </figcaption></figure><figure class="gallery-item gallery-wide reveal"><img src="assets/beans.webp" alt="Roasted coffee beans" width="1400" height="931" loading="lazy" decoding="async"><figcaption>THE BEANS </figcaption></figure><figure class="gallery-item gallery-last reveal"><img src="assets/cup.webp" alt="A freshly prepared cup of coffee" width="1400" height="2100" loading="lazy" decoding="async"><figcaption>THE MOMENT </figcaption></figure></div><p class="gallery-disclaimer">Photography is illustrative and does not depict a confirmed Atelier Coffee location or team.</p></div></section>
+
+    <section class="quotes section-pad" aria-labelledby="quotes-title"><div class="container"><div class="quotes-top reveal"><span class="eyebrow">THE FEELING</span><h2 id="quotes-title">The little things<br>people <em>come back for.</em></h2><p>Sample review copy for layout preview. Replace with verified customer feedback before launch.</p></div><div class="quote-grid"><figure class="quote-card reveal"><span class="quote-symbol" aria-hidden="true">“</span><blockquote>“A lovely pause in the middle of a busy day. The kind of coffee you want to sit down for.”</blockquote><figcaption>DEMO REVIEW · NOT A CUSTOMER TESTIMONIAL</figcaption></figure><figure class="quote-card reveal"><span class="quote-symbol" aria-hidden="true">“</span><blockquote>“Warm, unhurried, and thoughtfully made. Every little detail feels considered.”</blockquote><figcaption>DEMO REVIEW · NOT A CUSTOMER TESTIMONIAL</figcaption></figure><figure class="quote-card reveal"><span class="quote-symbol" aria-hidden="true">“</span><blockquote>“Come for your usual cup, stay for the feeling of being right where you need to be.”</blockquote><figcaption>DEMO REVIEW · NOT A CUSTOMER TESTIMONIAL</figcaption></figure></div></div></section>
+
+    <section class="visit section-pad" id="contact" aria-labelledby="contact-title"><div class="container visit-grid"><div class="visit-intro reveal"><span class="eyebrow">COME ON IN</span><h2 id="contact-title">Your seat<br>is <em>waiting.</em></h2><p>Good coffee is even better shared. We’d love to see you when the doors open.</p><div class="visit-actions"><button type="button" class="button button-dark" id="directions-button">Get Directions</button><button type="button" class="text-link text-link-button" id="contact-button">Contact Us </button></div></div><div class="visit-details reveal"><div class="detail-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><div><h3>Find us</h3><p id="business-address">Address coming soon</p><span>Business location to be added</span></div></div><div class="detail-row"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h3>Opening hours</h3><p id="business-hours">Hours coming soon</p><span>Schedule to be confirmed</span></div></div><div class="detail-row"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><div><h3>Say hello</h3><p id="business-email">Contact details coming soon</p><span>Business email to be added</span></div></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-main"><div><a class="footer-brand" href="#home">ATELIER <span>COFFEE</span></a><p>Thoughtfully brewed, beautifully served.</p></div><nav aria-label="Footer navigation"><a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav><a class="back-to-top" href="#home">Back to top </a></div><div class="footer-bottom"><span>© <span id="year">2026</span> ATELIER COFFEE. All rights reserved.</span><span>Demo menu, pricing, reviews, and business details.</span><a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Photography: Unsplash</a></div></div></footer>
+
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button type="button" class="dialog-close" aria-label="Close message" id="dialog-close">×</button><span class="eyebrow">ATELIER COFFEE</span><h2 id="dialog-title">Details coming soon</h2><p id="dialog-message"></p><button type="button" class="button button-dark" id="dialog-ok">Got it</button></div></dialog>
+</body>
+</html>
+
+
